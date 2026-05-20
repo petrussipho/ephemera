@@ -35,7 +35,18 @@ body::after{
 
 /* ── LAYOUT ── */
 .app{display:grid;grid-template-columns:320px 1fr;height:100vh;overflow:hidden}
-@media(max-width:700px){.app{grid-template-columns:1fr}}
+@media(max-width:700px){
+  .app{grid-template-columns:1fr}
+  .sidebar{display:none;position:fixed;inset:0;z-index:200;width:100%}
+  .sidebar.mob-open{display:flex}
+  .mob-menu-btn{display:flex}
+  .chat-head{padding:.75rem 1rem}
+}
+.mob-menu-btn{
+  display:none;background:transparent;border:1px solid var(--faint);
+  border-radius:var(--r);padding:5px 10px;cursor:pointer;
+  font-size:12px;color:var(--muted);font-family:'Geist',sans-serif
+}
 
 /* ── SIDEBAR ── */
 .sidebar{
