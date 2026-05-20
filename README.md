@@ -1,6 +1,6 @@
 # Ephemera — real talk, no trace
 
-A real-time ephemeral chat platform. No accounts. No AI. No history kept after 24 hours. Text only. Max 10 people per room. Group chats based on today's trending topics and your location. A place too talk to anyone.
+A real-time ephemeral chat platform. No accounts. No AI. No history kept after 24 hours. Text only. Max 10 people per room. Group chats based on today's trending topics and your location. A place too talk with anyone.
 
 ---
 
